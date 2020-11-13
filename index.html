@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GENIUS</title>
+    <link rel="icon" href="img/IMG.jpg" type="image/jpg">
+    <style>
+        /* address */
+        .address{
+            height: 50px;
+            background-color: blue;
+            color: white;
+            margin: -10px -8px;
+        }
+        .job_time{
+            padding: 15px 50px;
+            font-weight: bolder;
+        }
+        .phone{
+            padding: 15px 50px;
+            font-weight: bolder;
+        }
+
+        /* menu */
+        .menu{
+            height: 60px;
+            border-bottom: 3px solid black;
+            margin: -10px;
+        }
+        .menu h1{
+            padding: 1px 100px;
+        }
+        .nav{
+            float: right;
+            margin-top: -70px;
+            padding-right: 100px;
+        }
+        .nav li{
+            list-style: none;
+            display: inline;
+        }
+        .nav a{
+            color: black;
+            text-decoration: none;
+            font-size: 23px;
+            margin: 0px 50px;
+            padding: 10px;
+            border: 0px solid blue;
+        }
+        .nav a:hover{
+            background-color: blue;
+            color: white;
+            transition: 0.1s;
+            border-top-width: 30px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+
+        /* body */
+        .body{
+            height: 1250px;
+            background-color: rgb(0, 140, 255);
+            margin: 10px -20px;
+        }
+
+        /* Log in */
+        .log_in{
+            width: 40%;
+            padding-top: 10px;
+            float: left;
+            margin-top: 20%;
+        }
+        fieldset{
+            width: 70%;
+            margin-left: 13%;
+            border: 3px double black;
+        }
+        legend{
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        .form{
+            padding-left: 70px;
+            line-height: 25px;
+            font-size: 20px;
+        }
+        .form button{
+            color: black;
+            background-color: cyan;
+            border-radius: 10px;
+            font-size: 20px;
+            margin-left: 125px;
+        }
+
+        /* photo */
+        .photo{
+            width: 60%;
+            padding-top: 10px;
+            float: left;
+        }
+        .photo img{
+            width: 100%;
+        }
+
+        /* footer */
+        footer{
+            text-align: center;
+            height: 40px;
+            margin: -10px -8px;
+            padding: 15px;
+            background-color: chartreuse;
+            
+        }
+        footer h1,h3{
+            display: inline;
+            
+        }
+
+        @media screen and(max-width: 1300px){
+            .all{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <!-- header -->
+        <header>
+
+        <!-- adderss -->
+            <div class="address">
+                <div class="job_time">
+                    &#8987; | Mon - Fri | 9:30 - 17:00 | 
+                </div>
+                <div class="phone" style="float: right; margin-top: -50px;">
+                    &#128222; | 09-421836385 | 09-400301513 |
+                </div>
+            </div>
+
+            <!-- menu -->
+            <div class="menu">
+                <h1><img src="img/IMG.jpg" alt="logo" width="30"> GENIUS<sup>&reg;</sup></h1>
+                <div class="nav">
+                    <ul><sup>|</sup>
+                        <li><a href="#">HOME</a></li><sup>|</sup>
+                        <li><a href="book.html">Books</a></li><sup>|</sup>
+                        <li><a href="about.html">About</a></li><sup>|</sup>
+                        <li><a href="contact_us.html">Contact Us</a></li><sup>|</sup>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+    <!-- body -->
+    <div class="body">
+
+        <!-- log in -->
+        <div class="log_in">
+            <fieldset>
+                <legend>Log In</legend>
+                <div class="form">
+                    <div class="name">
+                        <label>Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                        <input type="text" name="name" placeholder="Enter Your Name" autofocus="name">
+                    </div><br>
+
+                    <div>
+                        <label>Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                        <input type="email" name="email" placeholder="Enter Your E-mail Address">
+                    </div><br>
+
+                    <div>
+                        <label for="pass">Password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                        <input type="password" name="password" placeholder="password" id="pass" minlength="8">
+                    </div><br>
+
+                    <div>
+                        <label for="pass">Comfirm Password&nbsp;:</label>
+                        <input type="password" name="password" placeholder="password" id="pass" minlength="8">
+                    </div><br>
+
+                    <div>
+                        <label>Photo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                        <input type="file" name="Photo">
+                    </div><br>
+
+                    <button type="submit">Register</button>
+                </div>
+            </fieldset>
+        </div>
+
+        <!-- photo -->
+        <div class="photo">
+            <img src="img/a.jpg" alt="Programmers concept">
+        </div><br>
+    </div>    
+
+        <!-- footer -->
+        <footer>
+            <h1><img src="img/IMG.jpg" alt="logo" width="30"> GENIUS </h1> <h3>Copyright &copy; 2020 <i>Genius</i> developed by <i>Edward (Phoenix-ICT)</i>. All Rights Reserved.</h3>
+        </footer>
+    </div>
+</body>
+</html>

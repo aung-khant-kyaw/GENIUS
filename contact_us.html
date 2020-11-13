@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GENIUS</title>
+    <link rel="icon" href="img/IMG.jpg" type="image/jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        /* address */
+        .address{
+            height: 50px;
+            background-color: blue;
+            color: white;
+            margin: -10px -8px;
+        }
+        .job_time{
+            padding: 15px 50px;
+            font-weight: bolder;
+        }
+        .phone{
+            padding: 15px 50px;
+            font-weight: bolder;
+        }
+
+        /* menu */
+        .menu{
+            height: 60px;
+            border-bottom: 3px solid black;
+            margin: -10px;
+        }
+        .menu h1{
+            padding: 1px 100px;
+        }
+        .nav{
+            float: right;
+            margin-top: -70px;
+            padding-right: 100px;
+        }
+        .nav li{
+            list-style: none;
+            display: inline;
+        }
+        .nav a{
+            color: black;
+            text-decoration: none;
+            font-size: 23px;
+            margin: 0px 50px;
+            padding: 10px;
+            border: 0px solid blue;
+        }
+        .nav a:hover{
+            background-color: blue;
+            color: white;
+            transition: 0.1s;
+            border-top-width: 30px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+
+        /* body */
+        .body{
+            height: 630px;
+        }
+
+        /* map */
+        .map{
+            width: 45%;
+            float: left;
+            border-right: 3px solid black;
+        }
+        .map iframe{
+            padding: 5px 40px ;
+        }
+
+        /* contact */
+        .contact{
+            width: 50%;
+            float: right; 
+            height: 610px;
+        }
+
+        /* Email & Phone & FB & Ig */
+        .contact td{
+            width: 500px;
+            height: 300px;
+            padding: 10px 50px;
+        }
+        .contact i{
+            font-size: 50px;
+        }
+        .contact a{
+            text-decoration: none;
+            color: blue;
+            font-weight: bolder;
+        }
+
+        /* send email */
+        .email{
+            height: 380px;
+            text-align: center;
+            padding-top: 35px;
+            background-color: cyan;
+        }
+        .email table,tr,td{
+            height: 60px;
+            margin-left: 40%;
+        }
+        .email button{
+            color: black;
+            background-color: cyan;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+        .email button:hover{
+            transition: 0.1s;
+            background-color: chartreuse;
+            font-weight: bold;
+        }
+
+        /* footer */
+        footer{
+            text-align: center;
+            height: 40px;
+            margin: -10px -8px;
+            padding: 15px;
+            background-color: chartreuse;
+            
+        }
+        footer h1,h3{
+            display: inline;
+            
+        }
+
+        @media screen and (max-width: 1300px) {
+            .all{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <!-- header -->
+        <header>
+
+        <!-- adderss -->
+            <div class="address">
+                <div class="job_time">
+                    &#8987; | Mon - Fri | 9:30 - 17:00 | 
+                </div>
+                <div class="phone" style="float: right; margin-top: -50px;">
+                    &#128222; | 09-421836385 | 09-400301513 |
+                </div>
+            </div>
+        
+            <!-- menu -->
+            <div class="menu">
+                <h1><img src="img/IMG.jpg" alt="logo" width="30"> GENIUS<sup>&reg;</sup></h1>
+                <div class="nav">
+                    <ul><sup>|</sup>
+                        <li><a href="index.html">HOME</a></li><sup>|</sup>
+                        <li><a href="book.html">Books</a></li><sup>|</sup>
+                        <li><a href="about.html">About</a></li><sup>|</sup>
+                        <li><a href="#">Contact Us</a></li><sup>|</sup>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    
+        <!-- body -->
+        <div class="body">
+
+            <!-- map -->
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1797.4198577712264!2d95.65000216451267!3d16.74127089204755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd61e361e29f9ee9a!2sUniversity%20of%20Computer%20Studies%2C%20Maubin!5e1!3m2!1sen!2smm!4v1605253777001!5m2!1sen!2smm" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+
+            <!-- contact -->
+            <div class="contact">
+                <table>
+
+                    <!-- Email & Phone -->
+                    <tr>
+                        <td>
+                            <i class="far fa-envelope"></i><br>
+                            <h1>Email</h1>
+                            <h3><a href="mailto:aungkhantkyaw.19-20@ucsmub.edu.mm">aungkhantkyaw.19-20@ucsmub.edu.mm</a></h3><br>
+                            <h3><a href="mailto:aungkhant160203@gmail.com">aungkhant160203@gmail.com</a></h3>
+                        </td>
+                        <td>
+                            <i class="fas fa-phone-alt"></i>
+                            <h1>Phone</h1>
+                            <h3><a href="tel:09400301513">09-400301513</a> </h3><br>
+                            <h3><a href="tel:09421836385">09-421836385</a> </h3><br>
+                        </td>
+                    </tr>
+
+                    <!-- Fcebook & Instgram -->
+                    <tr>
+                        <td>
+                            <i class="fab fa-facebook-f"></i>
+                            <h1>Facebook</h1>
+                            <h3><a href="https://web.facebook.com/profile.php?id=100024534184545" target="_blink">Aung Khant Kyaw</a></h3><br>
+                            <h3><a href="https://web.facebook.com/profile.php?id=100054795131657" target="_blink">Ñwãy Õô (Edward)</a></h3>
+                        </td>
+                        <td>
+                            <i class="fab fa-instagram"></i>
+                            <h1>Instgram</h1>
+                            <h3><a href="https://instagram.com/aungkhant.nway" target="_blink">Aung Khant Kyaw</a></h3>    
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    
+        <!-- Send Email -->
+        <div class="email">
+            <h2 style = "display: inline; border-top: 3px solid black; border-bottom: 3px solid black; ">Contact Us</h2>
+            <form action="mailto: aungkhantkyaw.19-20@ucsmub.edu.mm"
+            method="POST" enctype="multipart/form-data" name="EmailForm"> 
+            <table>
+                <tr>
+                    <td><h3>Name</h3><br> <input type="text" size="25" name="ContactName"></td>
+                    <td><h3>Email Address</h3><br> <input type="email" size="25" name="Email"></td>
+                </tr>
+                <tr>
+                    <td><h3>Telephone</h3> <br> <input type="text" size="25" name="PhoneNo"></td>
+                    <td><h3>Book Name</h3> <br> <input type="text" size="25" name="BookName"></td>
+                </tr>
+            </table><br>
+            
+            <h3>Message</h3> <br> <textarea name="ContactCommentt" rows="6" cols="50"></textarea><br><br> 
+            
+            <button type="submit">Send</button> </form>
+        </div>
+    
+        <!-- footer -->
+        <footer>
+            <h1><img src="img/IMG.jpg" alt="logo" width="30"> GENIUS </h1> <h3>Copyright &copy; 2020 <i>Genius</i> developed by <i>Edward (Phoenix-ICT)</i>. All Rights Reserved.</h3>
+        </footer>
+    </div>
+</body>
+</html>
